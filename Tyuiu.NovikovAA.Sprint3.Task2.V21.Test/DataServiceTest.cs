@@ -8,7 +8,7 @@ namespace Tyuiu.NovikovAA.Sprint3.Task2.V21.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void ValidGetSumSeries()
         {
             DataService ds = new DataService();
 

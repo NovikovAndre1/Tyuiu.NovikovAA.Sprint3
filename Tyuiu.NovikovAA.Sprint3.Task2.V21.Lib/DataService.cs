@@ -11,7 +11,7 @@ namespace Tyuiu.NovikovAA.Sprint3.Task2.V21.Lib
             double SumSeries = 0;
             do
             {
-                SumSeries = SumSeries + Math.Pow(1.0 / (Math.Sin(startValue) + 2 * Math.Pow(stopValue, startValue)), startValue);
+                SumSeries = SumSeries + Math.Pow(1.0 / (Math.Sin(startValue) + 2 * Math.Pow(value, startValue)), startValue);
                 startValue++;
             } while (startValue <= stopValue);
             return Math.Round(SumSeries, 3);
