@@ -12,7 +12,7 @@ namespace Tyuiu.NovikovAA.Sprint3.Task0.V1
 
             Console.WriteLine("********************************************************************");
             Console.WriteLine("Исходные данные");
-            Console.WriteLine("********************************************************************");
+            Console.WriteLine("********************************************************************"); 
 
             int value = 4;
             int startValue = 1;
